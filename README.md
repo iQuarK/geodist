@@ -11,4 +11,5 @@ Small web-app that calculates the distance among two geolocations.
 
 Pending:
 1. Add Units
+
 2. Fix ugly interface
