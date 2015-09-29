@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoDist: calculate the distance between two geolocations</title>
+    <script src="//maps.googleapis.com/maps/api/js?libraries=places&amp;sensor=false&amp;language=en"></script>
+  </head>
+  <body>
+    <h1>Calculate the distance between two geolocations</h1>
+    <section id="data-input">
+      <form id="form" method="post">
+        <fieldset>
+          <legend>Write it down!</legend>
+          <div>
+            <label for="location-from">From</label>
+            <input id="location-from" value="" name="location-from">
+            <select id="list-from"></select>
+            <span id="lat-long-from"></span>
+          </div>
+          <div>
+            <label for="location-to">To</label>
+            <input id="location-to" value="" name="location-to">
+            <select id="list-to"></select>
+            <span id="lat-long-to"></span>
+          </div>
+        </fieldset>
+        <input type="button" id="submit" value="Get distance" name="submit"> 
+      </form>
+    </section>
+    <section id="data-output">
+      
+    </section>
+    <script src="js/ajax.js"></script>
+    <script src="js/geolocation.js"></script>
+    <script src="js/main.js"></script>
+    </script>
+  </body>
+</html>

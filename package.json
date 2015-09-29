@@ -1,0 +1,32 @@
+{
+  "name": "geodist",
+  "version": "0.0.1",
+  "description": "Small web-app that calculates the distance among two geolocationsk",
+  "license": "MIT",
+  "main": "server.js",
+  "repository": "eguneys/generator-emberfs",
+  "author": {
+    "name": "Luis Sanchez",
+    "email": "iquark@gmail.com",
+    "url": "https://github.com/iquark"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "files": [
+  ],
+  "keywords": [
+    "express",
+    "geolocation"
+  ],
+  "dependencies": {
+   "express": "^4.0.0",
+   "geolib": "^2.0.18",
+   "body-parser": "^1.14.1"
+  },
+  "devDependencies": {
+  }
+}
