@@ -6,3 +6,5 @@ Small web-app that calculates the distance among two geolocations.
 
 2. Start the server:
   $ npm start
+
+3. Visit http://localhost:8080 and dream!
