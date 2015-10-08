@@ -27,7 +27,7 @@ submit.addEventListener('click', function(evt) {
   Geolocation.getDistance(data).then(
     function(response) {
       console.log('success', response);
-      output.innerHTML = response.distance+"m";
+      output.innerHTML = response.distance+" km";
     },
     function(error) {
       console.error('error', response);

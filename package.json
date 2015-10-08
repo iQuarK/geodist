@@ -14,7 +14,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server/app.js"
   },
   "files": [
   ],
@@ -24,7 +24,6 @@
   ],
   "dependencies": {
    "express": "^4.0.0",
-   "geolib": "^2.0.18",
    "body-parser": "^1.14.1"
   },
   "devDependencies": {

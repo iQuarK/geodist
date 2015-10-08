@@ -1,6 +1,6 @@
 // imports
 var path = require('path');
-var geolib = require('geolib');
+var geolib = require('./lib/geo');
 var express = require('express');
 var bodyParser = require('body-parser');
 
@@ -34,7 +34,6 @@ app.post('/api/geo/distance/', jsonParser, function(req, res) {
       body = { error: "Incomplete data." };
     } else {
       try {
-        console.log(from, to);
         body = { distance: geolib.getDistance(from, to) };
       } catch (exception) {
         status = 400;
